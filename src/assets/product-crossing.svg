@@ -1,0 +1,33 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="111" y1="51" x2="540" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12161B"/>
+      <stop offset="1" stop-color="#0B0D10"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="93" y1="349" x2="546" y2="428" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20262D"/>
+      <stop offset="1" stop-color="#181D23"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="30" fill="url(#bg)"/>
+  <rect x="24" y="24" width="592" height="472" rx="24" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M0 404C94 347 168 333 247 348C334 365 403 429 519 421C560 418 594 409 640 389V520H0V404Z" fill="url(#ground)"/>
+  <path d="M121 340L172 219H401L444 288L523 324L560 389H468L432 420H301L274 389H121V340Z" fill="#0D1013"/>
+  <path d="M198 219H375L422 270H155L198 219Z" fill="#1E242B"/>
+  <path d="M184 275H296V336H141L155 298L184 275Z" fill="#2A323A"/>
+  <path d="M309 275H409L483 336H309V275Z" fill="#232A31"/>
+  <path d="M405 124H420V341H405V124Z" fill="#C6CED6"/>
+  <path d="M394 97H427V124H394V97Z" fill="#E3E8ED"/>
+  <circle cx="235" cy="389" r="48" fill="#07080A"/>
+  <circle cx="235" cy="389" r="23" fill="#5D6772"/>
+  <circle cx="444" cy="389" r="57" fill="#07080A"/>
+  <circle cx="444" cy="389" r="28" fill="#5D6772"/>
+  <path d="M454 155L563 155" stroke="#F0B26F" stroke-width="3"/>
+  <path d="M563 155V205" stroke="#F0B26F" stroke-width="3"/>
+  <text x="458" y="144" fill="#F0B26F" font-family="Arial" font-size="16" letter-spacing="2">WATER CROSSING READY</text>
+  <path d="M433 243L562 243" stroke="#7F8A95" stroke-width="2"/>
+  <text x="459" y="232" fill="#A9B2BA" font-family="Arial" font-size="14" letter-spacing="2">SEALED AIR PATH</text>
+  <rect x="42" y="50" width="226" height="86" rx="24" fill="#161B21" stroke="rgba(255,255,255,0.08)"/>
+  <text x="71" y="90" fill="#F4EFE7" font-family="Arial" font-size="26" font-weight="700">RANGER RAID</text>
+  <text x="71" y="116" fill="#98A2AD" font-family="Arial" font-size="16">Cruce, barro y flujo estable</text>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "name": "snorquel-cls",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "bun@1.2.15",
+  "scripts": {
+    "dev": "concurrently -k \"bun run dev:api\" \"bun run dev:web\"",
+    "dev:api": "bun --hot server/index.ts",
+    "dev:web": "vite --host 0.0.0.0 --port 5124",
+    "start:api": "bun server/index.ts",
+    "preview:web": "sh -c 'vite preview --host 0.0.0.0 --port ${PORT:-3000}'",
+    "build": "tsc --noEmit && vite build",
+    "check": "biome check .",
+    "format": "biome check --write .",
+    "db:up": "docker compose up -d db",
+    "db:down": "docker compose stop db",
+    "docker:up": "docker compose up -d db api",
+    "docker:dev": "docker compose up db api web",
+    "drizzle:generate": "drizzle-kit generate",
+    "drizzle:migrate": "drizzle-kit migrate",
+    "drizzle:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.62.8",
+    "@tanstack/react-router": "^1.83.1",
+    "drizzle-orm": "^0.36.4",
+    "postgres": "^3.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.9.0",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "bun-types": "^1.1.38",
+    "concurrently": "^9.1.0",
+    "drizzle-kit": "^0.28.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

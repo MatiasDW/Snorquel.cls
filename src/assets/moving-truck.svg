@@ -1,0 +1,29 @@
+<svg width="760" height="340" viewBox="0 0 760 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="truckBody" x1="190" y1="111" x2="523" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C2228"/>
+      <stop offset="0.5" stop-color="#0A0D11"/>
+      <stop offset="1" stop-color="#1A2027"/>
+    </linearGradient>
+    <linearGradient id="truckRoof" x1="288" y1="92" x2="393" y2="163" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30373F"/>
+      <stop offset="1" stop-color="#171C21"/>
+    </linearGradient>
+    <linearGradient id="truckWindow" x1="289" y1="139" x2="412" y2="173" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#333B43"/>
+      <stop offset="1" stop-color="#1E252D"/>
+    </linearGradient>
+  </defs>
+  <path d="M128 222L165 133H438L515 171L553 263H521L492 286H437L420 263H283L268 286H205L173 222H128Z" fill="url(#truckBody)"/>
+  <path d="M186 127L258 90H409L452 116L438 133H165L186 127Z" fill="url(#truckRoof)"/>
+  <path d="M226 143H328V188H193L206 160L226 143Z" fill="url(#truckWindow)"/>
+  <path d="M344 143H419L471 181V188H344V143Z" fill="url(#truckWindow)"/>
+  <path d="M451 81H464V215H451V81Z" fill="#C9D2DA"/>
+  <path d="M442 58H472V81H442V58Z" fill="#E5EAEE"/>
+  <circle cx="274" cy="283" r="38" fill="#060709"/>
+  <circle cx="274" cy="283" r="19" fill="#626C77"/>
+  <circle cx="435" cy="283" r="43" fill="#060709"/>
+  <circle cx="435" cy="283" r="21" fill="#626C77"/>
+  <rect x="235" y="113" width="96" height="18" rx="9" fill="#303840"/>
+  <rect x="343" y="113" width="61" height="18" rx="9" fill="#303840"/>
+</svg>

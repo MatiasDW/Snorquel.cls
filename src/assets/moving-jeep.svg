@@ -1,0 +1,23 @@
+<svg width="640" height="300" viewBox="0 0 640 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jeepBody" x1="157" y1="115" x2="430" y2="241" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B2127"/>
+      <stop offset="0.5" stop-color="#0B0E11"/>
+      <stop offset="1" stop-color="#1A2026"/>
+    </linearGradient>
+    <linearGradient id="jeepRoof" x1="252" y1="95" x2="338" y2="157" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#313941"/>
+      <stop offset="1" stop-color="#161B20"/>
+    </linearGradient>
+  </defs>
+  <path d="M120 218L149 141H362L419 175L448 247H420L392 266H322L307 247H214L199 266H151L131 218H120Z" fill="url(#jeepBody)"/>
+  <path d="M176 138L233 101H339L376 128L362 141H149L176 138Z" fill="url(#jeepRoof)"/>
+  <path d="M211 151H289V193H173L186 166L211 151Z" fill="#333B43"/>
+  <path d="M303 151H364L401 183V193H303V151Z" fill="#232A31"/>
+  <path d="M365 89H377V210H365V89Z" fill="#C7D0D8"/>
+  <path d="M356 68H383V89H356V68Z" fill="#E2E7EC"/>
+  <circle cx="226" cy="263" r="33" fill="#060709"/>
+  <circle cx="226" cy="263" r="16" fill="#5F6974"/>
+  <circle cx="359" cy="263" r="37" fill="#060709"/>
+  <circle cx="359" cy="263" r="18" fill="#5F6974"/>
+</svg>

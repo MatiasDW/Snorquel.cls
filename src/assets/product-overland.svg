@@ -1,0 +1,35 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="104" y1="50" x2="512" y2="484" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14181D"/>
+      <stop offset="1" stop-color="#0A0D10"/>
+    </linearGradient>
+    <linearGradient id="body" x1="199" y1="166" x2="484" y2="387" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C2127"/>
+      <stop offset="0.5" stop-color="#0B0D10"/>
+      <stop offset="1" stop-color="#181D23"/>
+    </linearGradient>
+    <linearGradient id="snorkel" x1="374" y1="110" x2="389" y2="297" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D1D8DF"/>
+      <stop offset="1" stop-color="#646E78"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="30" fill="url(#bg)"/>
+  <rect x="22" y="22" width="596" height="476" rx="24" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M115 388C177 281 218 222 271 174C294 154 326 136 359 141C391 146 406 176 393 208C381 237 357 253 350 282C341 319 354 355 389 389H115Z" fill="url(#body)"/>
+  <path d="M278 176H365L410 214V237H238L278 176Z" fill="#1E242B"/>
+  <path d="M251 226H339V283H214L226 248L251 226Z" fill="#2C343C"/>
+  <path d="M352 226H410V283H352V226Z" fill="#242C34"/>
+  <path d="M370 111H385V287H370V111Z" fill="url(#snorkel)"/>
+  <path d="M359 84H392V111H359V84Z" fill="#E3E8ED"/>
+  <circle cx="287" cy="376" r="46" fill="#07080A"/>
+  <circle cx="287" cy="376" r="22" fill="#59636E"/>
+  <path d="M430 142L505 142" stroke="#F0B26F" stroke-width="3"/>
+  <path d="M467 142V191" stroke="#F0B26F" stroke-width="3"/>
+  <text x="432" y="132" fill="#F0B26F" font-family="Arial" font-size="16" letter-spacing="2">MATTE BLACK FINISH</text>
+  <path d="M395 267L520 267" stroke="#7F8A95" stroke-width="2"/>
+  <text x="428" y="256" fill="#A9B2BA" font-family="Arial" font-size="14" letter-spacing="2">TIG WELD ALUMINIUM</text>
+  <rect x="40" y="48" width="220" height="86" rx="24" fill="#161B21" stroke="rgba(255,255,255,0.08)"/>
+  <text x="68" y="89" fill="#F4EFE7" font-family="Arial" font-size="26" font-weight="700">79 SERIES</text>
+  <text x="68" y="116" fill="#98A2AD" font-family="Arial" font-size="16">Close-up tecnico y presencia seria</text>
+</svg>
