@@ -1,0 +1,30 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="132" y1="42" x2="507" y2="485" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#161A1F"/>
+      <stop offset="1" stop-color="#090B0E"/>
+    </linearGradient>
+    <linearGradient id="body" x1="146" y1="190" x2="470" y2="397" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C2228"/>
+      <stop offset="1" stop-color="#101419"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="30" fill="url(#bg)"/>
+  <rect x="24" y="24" width="592" height="472" rx="24" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M74 366C160 306 223 257 290 214C329 189 364 174 400 186C440 200 451 238 430 274C411 307 378 319 353 355L74 366Z" fill="url(#body)"/>
+  <path d="M214 223H356L414 265V292H163L214 223Z" fill="#1D232A"/>
+  <path d="M188 280H297V336H140L161 302L188 280Z" fill="#2B333C"/>
+  <path d="M309 280H407V336H309V280Z" fill="#232A31"/>
+  <path d="M351 120H367V324H351V120Z" fill="#BCC5CE"/>
+  <path d="M339 93H374V121H339V93Z" fill="#E4E8EC"/>
+  <circle cx="229" cy="380" r="52" fill="#08090B"/>
+  <circle cx="229" cy="380" r="24" fill="#5E6873"/>
+  <path d="M398 146L530 104" stroke="#F0B26F" stroke-width="3"/>
+  <circle cx="530" cy="104" r="6" fill="#F0B26F"/>
+  <text x="403" y="141" fill="#F0B26F" font-family="Arial" font-size="16" letter-spacing="2">HIGH-FLOW HEAD</text>
+  <path d="M383 257L528 257" stroke="#7F8A95" stroke-width="2"/>
+  <text x="412" y="246" fill="#A9B2BA" font-family="Arial" font-size="14" letter-spacing="2">BOLT-ON TEMPLATE</text>
+  <rect x="41" y="50" width="246" height="86" rx="24" fill="#161B21" stroke="rgba(255,255,255,0.08)"/>
+  <text x="70" y="90" fill="#F4EFE7" font-family="Arial" font-size="26" font-weight="700">HILUX BLACKLINE</text>
+  <text x="70" y="116" fill="#98A2AD" font-family="Arial" font-size="16">Perfil limpio, negro matte, look OEM+</text>
+</svg>

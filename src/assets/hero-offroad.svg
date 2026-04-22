@@ -1,0 +1,74 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="195" y1="78" x2="1160" y2="808" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12161B"/>
+      <stop offset="0.42" stop-color="#0A0D11"/>
+      <stop offset="1" stop-color="#151A20"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1038 170) rotate(90) scale(184 250)">
+      <stop stop-color="#F2B36F"/>
+      <stop offset="1" stop-color="#F2B36F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="220" y1="575" x2="1114" y2="702" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C2128"/>
+      <stop offset="1" stop-color="#252B33"/>
+    </linearGradient>
+    <linearGradient id="vehicleBody" x1="360" y1="330" x2="973" y2="624" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1F25"/>
+      <stop offset="0.4" stop-color="#0C0F13"/>
+      <stop offset="1" stop-color="#161B21"/>
+    </linearGradient>
+    <linearGradient id="vehicleTop" x1="628" y1="284" x2="641" y2="511" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E353D"/>
+      <stop offset="1" stop-color="#12161B"/>
+    </linearGradient>
+    <linearGradient id="window" x1="540" y1="390" x2="724" y2="453" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C333B"/>
+      <stop offset="1" stop-color="#1A2027"/>
+    </linearGradient>
+    <linearGradient id="snorkel" x1="784" y1="229" x2="798" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8D1D9"/>
+      <stop offset="0.3" stop-color="#8A949E"/>
+      <stop offset="1" stop-color="#5A646E"/>
+    </linearGradient>
+    <linearGradient id="dust" x1="944" y1="527" x2="1071" y2="623" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2B36F" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#F2B36F" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" rx="44" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1320" height="820" rx="36" stroke="rgba(255,255,255,0.08)"/>
+  <ellipse cx="1038" cy="170" rx="250" ry="184" fill="url(#glow)"/>
+  <path d="M0 611C167 541 280 526 415 548C523 565 643 615 774 607C911 598 1023 533 1147 525C1236 519 1307 534 1400 579V900H0V611Z" fill="#1A2027"/>
+  <path d="M0 704C159 665 281 662 394 691C509 721 616 780 748 789C882 798 1013 751 1124 730C1229 711 1303 713 1400 742V900H0V704Z" fill="url(#ground)"/>
+  <path d="M835 358H894L912 388V461H870L835 438V358Z" fill="#15191E"/>
+  <path d="M850 336H898V358H850V336Z" fill="#0A0D10"/>
+  <path d="M905 270H921V418H905V270Z" fill="url(#snorkel)"/>
+  <path d="M896 231H931V270H896V231Z" fill="#D0D7DE"/>
+  <path d="M374 500L427 357H788L907 399L974 552H923L886 584H820L801 552H527L508 584H443L410 500H374Z" fill="url(#vehicleBody)"/>
+  <path d="M447 349L558 290H741L806 335L788 357H427L447 349Z" fill="url(#vehicleTop)"/>
+  <path d="M505 376H616V449H455L477 391L505 376Z" fill="url(#window)"/>
+  <path d="M637 376H748L813 435V449H637V376Z" fill="url(#window)"/>
+  <path d="M344 531H426L438 559H334L344 531Z" fill="#0A0C0F"/>
+  <path d="M357 512H422L426 531H344L357 512Z" fill="#1F252C"/>
+  <rect x="495" y="321" width="130" height="24" rx="12" fill="#2C333A"/>
+  <rect x="636" y="321" width="86" height="24" rx="12" fill="#2C333A"/>
+  <rect x="736" y="321" width="38" height="24" rx="12" fill="#2C333A"/>
+  <path d="M765 398H865L903 463H782L765 398Z" fill="#0A0D10"/>
+  <rect x="772" y="406" width="98" height="12" rx="6" fill="#171C21"/>
+  <path d="M941 566C1015 548 1088 567 1168 620" stroke="#E7B173" stroke-width="6" stroke-dasharray="10 16" opacity="0.8"/>
+  <path d="M982 560C1034 551 1084 566 1147 613C1187 643 1226 662 1284 668" stroke="#E7B173" stroke-width="4" stroke-dasharray="8 14" opacity="0.45"/>
+  <ellipse cx="1086" cy="596" rx="148" ry="84" fill="url(#dust)"/>
+  <circle cx="521" cy="586" r="64" fill="#07080A"/>
+  <circle cx="521" cy="586" r="31" fill="#5B6570"/>
+  <circle cx="792" cy="586" r="71" fill="#07080A"/>
+  <circle cx="792" cy="586" r="34" fill="#5B6570"/>
+  <circle cx="792" cy="586" r="12" fill="#2B3138"/>
+  <circle cx="521" cy="586" r="11" fill="#2B3138"/>
+  <path d="M451 449H882" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <path d="M401 506H964" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+  <rect x="92" y="78" width="338" height="118" rx="28" fill="#14181D" stroke="rgba(255,255,255,0.08)"/>
+  <text x="130" y="127" fill="#F4EFE7" font-family="Arial" font-size="34" font-weight="700">SNORKELS DE ALUMINIO</text>
+  <text x="130" y="168" fill="#98A2AD" font-family="Arial" font-size="24">Australia import · matte black · uso 4x4 real</text>
+  <text x="1034" y="824" fill="#89949F" font-family="Arial" font-size="21" letter-spacing="4">LAND CRUISER / HILUX / RANGER / JIMNY</text>
+</svg>

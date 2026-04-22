@@ -1,0 +1,30 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="104" y1="59" x2="524" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14191E"/>
+      <stop offset="1" stop-color="#0A0C0F"/>
+    </linearGradient>
+    <linearGradient id="body" x1="156" y1="197" x2="471" y2="393" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D232A"/>
+      <stop offset="1" stop-color="#11161B"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="30" fill="url(#bg)"/>
+  <rect x="24" y="24" width="592" height="472" rx="24" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M95 371C171 301 229 253 288 218C321 198 350 187 383 194C418 201 437 231 427 265C417 296 393 312 381 340C372 362 371 379 381 398L95 371Z" fill="url(#body)"/>
+  <path d="M217 226H366L421 269V291H168L217 226Z" fill="#1D232A"/>
+  <path d="M191 279H300V338H149L166 301L191 279Z" fill="#2C333A"/>
+  <path d="M313 279H415V338H313V279Z" fill="#242B32"/>
+  <path d="M354 131H369V330H354V131Z" fill="#C4CDD5"/>
+  <path d="M343 103H376V132H343V103Z" fill="#E0E5EA"/>
+  <circle cx="236" cy="381" r="49" fill="#07080A"/>
+  <circle cx="236" cy="381" r="22" fill="#5D6771"/>
+  <path d="M392 171L531 124" stroke="#F0B26F" stroke-width="3"/>
+  <circle cx="531" cy="124" r="6" fill="#F0B26F"/>
+  <text x="396" y="165" fill="#F0B26F" font-family="Arial" font-size="16" letter-spacing="2">COMPACT FIT · JIMNY</text>
+  <path d="M383 259L537 259" stroke="#7F8A95" stroke-width="2"/>
+  <text x="417" y="248" fill="#A9B2BA" font-family="Arial" font-size="14" letter-spacing="2">MATTE POWDER COAT</text>
+  <rect x="42" y="50" width="210" height="86" rx="24" fill="#161B21" stroke="rgba(255,255,255,0.08)"/>
+  <text x="71" y="90" fill="#F4EFE7" font-family="Arial" font-size="26" font-weight="700">JIMNY CONVOY</text>
+  <text x="71" y="116" fill="#98A2AD" font-family="Arial" font-size="16">Compacto, tecnico y serio</text>
+</svg>

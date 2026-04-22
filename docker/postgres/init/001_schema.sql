@@ -1,0 +1,44 @@
+CREATE TABLE IF NOT EXISTS imports (
+  id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  filename VARCHAR(255) NOT NULL,
+  source VARCHAR(64) NOT NULL,
+  status VARCHAR(32) NOT NULL DEFAULT 'processed',
+  total_rows INTEGER NOT NULL DEFAULT 0,
+  imported_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  notes TEXT
+);
+
+CREATE INDEX IF NOT EXISTS imports_source_idx ON imports (source);
+
+CREATE TABLE IF NOT EXISTS contacts (
+  id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  import_id INTEGER REFERENCES imports (id) ON DELETE SET NULL,
+  full_name VARCHAR(160) NOT NULL,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  company VARCHAR(160) NOT NULL,
+  status VARCHAR(32) NOT NULL DEFAULT 'new',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS contacts_company_idx ON contacts (company);
+CREATE INDEX IF NOT EXISTS contacts_status_idx ON contacts (status);
+
+CREATE TABLE IF NOT EXISTS carts (
+  id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  cart_token VARCHAR(64) NOT NULL UNIQUE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS cart_items (
+  id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  cart_id INTEGER NOT NULL REFERENCES carts (id) ON DELETE CASCADE,
+  product_id VARCHAR(64) NOT NULL,
+  quantity INTEGER NOT NULL DEFAULT 1,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  UNIQUE (cart_id, product_id)
+);
+
+CREATE INDEX IF NOT EXISTS cart_items_cart_idx ON cart_items (cart_id);
+CREATE INDEX IF NOT EXISTS cart_items_product_idx ON cart_items (product_id);
